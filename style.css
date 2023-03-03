@@ -1,0 +1,290 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    padding-bottom: 600px;
+}
+
+header ul{
+    display: flex;
+    width: 1200px;
+    margin:  auto;
+}
+
+header ul:nth-child(1){
+    justify-content: flex-end;
+}
+
+header ul:nth-child(1) li{
+    margin: 0 30px;
+}
+
+header ul:nth-child(2){
+    justify-content: space-around;
+}
+
+header ul li{
+    list-style: none;
+    line-height: 50px;
+}
+
+.logo{
+    font-size: 50px;
+}
+
+.button{
+    background-color: blue;
+    display: block;
+    color: aliceblue;
+    padding: 0 30px;
+    border-radius: 5px;
+}
+
+.firstPart{
+    display: flex;
+    width: 1200px;
+    margin:  30px auto;
+}
+
+.firstPart .text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text h1{
+    font-size: 40px;
+}
+
+.text p{
+    font-size: 20px;
+}
+
+.text div+p{
+    font-size: 15px;
+}
+
+.text .button{
+    width: 80%;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.text h1+p{
+    margin-top: 20px;
+}
+
+.firstPart .pic{
+    width: 50%;
+}
+
+.secondPart{
+    width: 1200px;
+    margin:  100px auto;
+    text-align: center;
+}
+
+.secondPart p{
+    margin-top: 30px;
+}
+
+
+.thirtPart{
+    width: 1200px;
+    margin:  100px auto;
+    display: flex;
+}
+
+.thirtPart .text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.thirtPart .text h1{
+    font-size: 30px;
+}
+
+.thirtPart .text p{
+    font-size: 20px;
+    margin: 20px;
+    margin-left: 0;
+}
+
+.thirtPart ul{
+    width: 90%;
+    margin: 20px 30px;
+}
+
+.thirtPart ul li{
+    width: 50%;
+    float:  left;
+    font-size: 15px;
+}
+
+.thirtPart a{
+    width: 120px;
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+    padding: 10px;
+    border-bottom: 1px solid blue;
+}
+
+.thirtPart a:visited{
+    color: blue;
+}
+
+.thirtPart:nth-child(odd){
+    flex-direction: row-reverse;
+}
+
+.fourthPart{
+    width: 1200px;
+    margin:  100px auto;
+    text-align: center;
+}
+
+.fourthPart h1{
+    margin-bottom: 100px;
+}
+
+.serve{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 360px;
+    margin: 20px;
+}
+
+.card img{
+    border-radius: 50%;
+}
+
+.fifthPart{
+    width: 1200px;
+    margin:  100px auto;
+    text-align: center;
+}
+
+.brand{
+    margin: 30px 0;
+}
+
+.fifthPart p{
+    display: inline-block;
+    width: 60%;
+    font-size: 20px;
+}
+
+.fifthPart div+p{
+    margin-bottom: 30px;
+}
+
+.sixth{
+    width: 1200px;
+    margin:  100px auto;
+    text-align: center;
+}
+
+.sixth div{
+    display: inline-block;
+    margin: 30px;
+    width: 100px;
+    background-color: blue;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: rgb(32, 32, 77);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.wrap{
+    width: 1200px;
+    margin:  20px auto;
+}
+
+.about{
+    display: flex;
+    border-bottom: 1px solid white;
+}
+
+.about a{
+    font-size: 20px;
+    line-height: 100px;
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+}
+
+.other{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+
+.details p{
+    margin: 10px 0;
+}
+
+.details :first-child{
+    color: white;
+}
+
+.wrap .buttom{
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid white;
+    padding-bottom: 30px;
+}
+
+.wrap .buttom div{
+    background-color: rgb(246, 175, 7);
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.last{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    color: white;
+}
+
+.icon img{
+    border-radius: 50%;
+}
+
+.map{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.map p{
+    color: gray;
+    margin: 0 10px;
+    line-height: 30px;
+    padding-right: 20px;
+}
+
+.map p:nth-child(-n+2){
+    border-right: 1px solid gray;
+}
